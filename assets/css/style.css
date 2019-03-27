@@ -7,6 +7,10 @@ h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
 }
+#start{
+    text-align: center;
+    margin-left:50%;
+}
 
 .quesAns{
     text-align:center;

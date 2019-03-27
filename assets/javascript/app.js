@@ -1,10 +1,16 @@
 //start button
-// $("#start").click(function(){
+ $("#start").click(function(){
+    
+ });
+//function timelimit(){
+    
+//}
+var targetDiv = document.getElementById(".startButton");
+    var newDiv = document.createElement("div");
+    newDiv.setAttribute("id", "quesAns");
 
-// });
-function timelimit(){
-
-}
+// document.getElementById("#start").html = ".quesAns";
+console.log("check transition");
 
 var index=0;
 var questions = [{
