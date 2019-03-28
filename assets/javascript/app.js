@@ -28,12 +28,12 @@ var questions = [{
     rightAnswer: "Capture"
 },
 {
-    question: "which planets have atmospheric banding?",
-    answerOne: "Co-Accretion",
-    answerTwo: "Capture",
-    answerThree: "large Impact",
-    answerFour: "Fusion",
-    rightAnswer: "Capture"
+    question: " What is the approximate distance of the Earth from the Sun in au?",
+    answerOne: "1",
+    answerTwo: "15",
+    answerThree: "13",
+    answerFour: "20",
+    rightAnswer: "1"
 
 }];
 
@@ -77,6 +77,7 @@ $(".answer").on("click", function () {
     clearInterval(intervalId);
     index++;
     setTimeout(displayQuestions, 2000);
+
 });
 
 
