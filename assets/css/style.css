@@ -1,5 +1,7 @@
 body{
-    background-color: orange;
+    background-image: url("planets.jpg");
+    color:white;
+    
 }
 
 h1{
@@ -9,16 +11,31 @@ h1{
 }
 #start{
     text-align: center;
-    margin-left:50%;
+    
+    margin-top:20px;
 }
 
 .quesAns{
-    text-align:center;
+    align:middle;
     font-size: 20px;
     margin-top:50px;
+}
+.questions{
+    
 }
 
 .answerBox{
     margin-top:20px;
-    margin-left:-310px;
+    
+}
+
+#answers{
+    margin-left:0px;
+}
+
+#display{
+    background:black;
+    color:white;
+    text-align: center;
+    width:30px;
 }
